@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:background="@color/background"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent" 
+    >
+<TextView  
+	android:id="@+id/regulartext"
+    android:layout_width="fill_parent" 
+    android:layout_height="wrap_content" 
+    android:textColor = "@color/fontcolor"
+    android:textSize = "24.5sp"
+    android:layout_marginTop = "70dip"
+    />
+    
+<EditText
+        android:id="@+id/textbox"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below = "@+id/regulartext"
+        />
+</LinearLayout>
